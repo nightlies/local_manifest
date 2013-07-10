@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+
+     <project name="nightlies/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="cm-10.1" />
+
+     <project name="nightlies/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master"/>
+
+     <project name="maxwen/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
+     
+     <remove-project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+     <project name="nightlies/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-10.1"/>
+
+     <project name="nightlies/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="cm-10.1" />
+
+     <project name="nightlies/device_htc_evitareul" path="device/htc/evitareul" remote="github" revision="testing" />
+
+     <project name="evitareul/vendor_htc_evitareul" path="vendor/htc/evitareul" remote="github" revision="master"/>
+
+     <project name="evitareul/kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="unstable" />
+     
+     <project name="nightlies/GooManager_prebuilt" path="packages/apps/GooManager" remote="github" revision="master"/>
+
+    </manifest>
