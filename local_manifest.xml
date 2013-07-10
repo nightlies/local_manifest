@@ -15,9 +15,9 @@
 
      <project name="nightlies/device_htc_evitareul" path="device/htc/evitareul" remote="github" revision="testing" />
 
-     <project name="evitareul/vendor_htc_evitareul" path="vendor/htc/evitareul" remote="github" revision="master"/>
+     <project name="nightlies/vendor_htc_evitareul" path="vendor/htc/evitareul" remote="github" revision="master"/>
 
-     <project name="evitareul/kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="unstable" />
+     <project name="nightlies/kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="unstable" />
      
      <project name="nightlies/GooManager_prebuilt" path="packages/apps/GooManager" remote="github" revision="master"/>
 
